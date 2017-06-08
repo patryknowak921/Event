@@ -4,4 +4,4 @@ var listLength = document.getElementsByTagName('li').length;
 button.addEventListener('click', function() {
     list.innerHTML += '<li>item ' + listLength + '</li>';
     listLength++;
-})
+});
